@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form-->
+     <form>
+        <!--username-->
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required minlength="1"><br>
+               <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" required><br>
+               <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+            <label for ="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob"><br>
+
+
+
+            <!--skill(checkbox)-->
+            <div><!--skill 1-->
+                <h5>Select skills </h5>
+                <input type="checkbox" id="html" name="skill" value="HTML">
+                <label for="html">HTML</label><br>
+            </div>
+            <div><!--skill 2   -->
+                <input type="checkbox" id="css" name="skill" value="CSS">
+                <label for="css">CSS</label><br>
+                </div>
+                <div>
+                <input type="checkbox" id="js" name="skill" value="JavaScript">
+                <label for="js">JavaScript</label><br>
+            </div>
+            <!--gender-->
+            <div>
+                <h5>select gender</h5>
+                <div>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                </div>
+                <div>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>  
+            </div>
+
+            <!--states-->
+            <div>
+                <label for="state">Select State:</label>
+                <select id="state" name="state">
+                    <option value=""></option>
+                    <option value="CA">ts</option>
+                    <option value="NY">ap</option>
+                    <option value="TX">mh</option>
+                </select>
+            </div>
+             <!-- submit button -->
+            <input type="submit" value="Submit">
+        </div>
+     </form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Playwrite+CU+Guides&display=swap');
+h1{
+    color: blue;
+    text-align: center;
+    background-color: aqua;
+    font-family: "Playwrite CU Guides", cursive;
+}
+img{
+    margin:auto;
+}
